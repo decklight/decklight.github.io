@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paper Planes</title>
+  <link rel="stylesheet" href="dist/decklight.css">
+  <link rel="stylesheet" href="themes/meadow.css">
+</head>
+<body>
+  <div class="decklight">
+
+    <section>
+      <h1>Paper Planes</h1>
+      <p>Fold your first dart — then watch it fly</p>
+      <svg viewBox="0 0 200 80" style="max-width: 240px; margin-top: 0.5em"
+           role="img" aria-label="a small paper plane" data-animate="float">
+        <g stroke="var(--d-stroke)" stroke-width="2" stroke-linejoin="round">
+          <polygon points="30,52 158,18 92,58" fill="#ffffff"/>
+          <polygon points="92,58 158,18 82,72" fill="#e9eef2"/>
+        </g>
+        <g stroke="var(--d-muted)" stroke-width="2" stroke-linecap="round" opacity="0.6">
+          <line x1="12" y1="40" x2="26" y2="37"/>
+          <line x1="6" y1="52" x2="22" y2="49"/>
+        </g>
+      </svg>
+      <aside class="notes">
+        One sheet of paper, six creases, one flight. Press the right arrow to begin.
+      </aside>
+    </section>
+
+    <section>
+      <h2>What you need</h2>
+      <ul data-build>
+        <li>One sheet of <strong>A4 or Letter</strong> — ordinary printer paper flies best</li>
+        <li>A flat table — every crease should be pressed <em>sharp</em></li>
+        <li>Two minutes</li>
+      </ul>
+      <aside class="notes">
+        Almost nothing.
+        ⟨CLICK⟩ Ordinary printer paper is the right weight — heavier stock stalls.
+        ⟨CLICK⟩ Sharp creases are the whole game, so fold on a table and press each one flat.
+        ⟨CLICK⟩ That's it. Two minutes.
+      </aside>
+    </section>
+
+    <section>
+      <h2>Fold the dart</h2>
+      <p>Six creases, in order</p>
+      <svg viewBox="0 0 960 520" style="max-width: 92%" role="img"
+           aria-label="six-step folding guide for a paper dart">
+        <defs>
+          <marker id="fold-arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="var(--d-accent)"/>
+          </marker>
+        </defs>
+        <g data-build font-size="17">
+
+          <!-- 1 · center crease -->
+          <g>
+            <circle cx="28" cy="30" r="14" fill="var(--d-accent)"/>
+            <text x="28" y="35" text-anchor="middle" fill="var(--accent-contrast)" font-size="15" font-weight="700">1</text>
+            <rect x="118" y="48" width="84" height="124" rx="3" fill="var(--d-fill-2)" stroke="var(--d-stroke)" stroke-width="2"/>
+            <line x1="160" y1="52" x2="160" y2="168" stroke="var(--d-accent)" stroke-width="2" stroke-dasharray="5 4"/>
+            <path d="M 130 38 Q 160 18 190 38" fill="none" stroke="var(--d-accent)" stroke-width="2" marker-end="url(#fold-arrow)"/>
+            <text x="160" y="225" text-anchor="middle" fill="var(--d-text)">Crease down the middle,</text>
+            <text x="160" y="246" text-anchor="middle" fill="var(--d-text)">then unfold</text>
+          </g>
+
+          <!-- 2 · corners to the crease -->
+          <g>
+            <circle cx="348" cy="30" r="14" fill="var(--d-accent)"/>
+            <text x="348" y="35" text-anchor="middle" fill="var(--accent-contrast)" font-size="15" font-weight="700">2</text>
+            <polygon points="480,48 438,90 438,172 522,172 522,90" fill="var(--d-fill-2)" stroke="var(--d-stroke)" stroke-width="2"/>
+            <polygon points="480,48 438,90 480,120" fill="var(--d-fill-3)" stroke="var(--d-stroke)" stroke-width="1.5"/>
+            <polygon points="480,48 522,90 480,120" fill="var(--d-fill-3)" stroke="var(--d-stroke)" stroke-width="1.5"/>
+            <line x1="480" y1="48" x2="480" y2="168" stroke="var(--d-accent)" stroke-width="1.5" stroke-dasharray="5 4"/>
+            <text x="480" y="225" text-anchor="middle" fill="var(--d-text)">Fold both top corners</text>
+            <text x="480" y="246" text-anchor="middle" fill="var(--d-text)">to the crease</text>
+          </g>
+
+          <!-- 3 · slanted edges to the middle -->
+          <g>
+            <circle cx="668" cy="30" r="14" fill="var(--d-accent)"/>
+            <text x="668" y="35" text-anchor="middle" fill="var(--accent-contrast)" font-size="15" font-weight="700">3</text>
+            <polygon points="800,42 764,150 764,172 836,172 836,150" fill="var(--d-fill-2)" stroke="var(--d-stroke)" stroke-width="2"/>
+            <polygon points="800,42 764,150 800,150" fill="var(--d-fill-3)" stroke="var(--d-stroke)" stroke-width="1.5"/>
+            <polygon points="800,42 836,150 800,150" fill="var(--d-fill-3)" stroke="var(--d-stroke)" stroke-width="1.5"/>
+            <line x1="800" y1="42" x2="800" y2="168" stroke="var(--d-accent)" stroke-width="1.5" stroke-dasharray="5 4"/>
+            <text x="800" y="225" text-anchor="middle" fill="var(--d-text)">Fold the slanted edges</text>
+            <text x="800" y="246" text-anchor="middle" fill="var(--d-text)">to the middle again</text>
+          </g>
+
+          <!-- 4 · fold in half -->
+          <g>
+            <circle cx="28" cy="290" r="14" fill="var(--d-accent)"/>
+            <text x="28" y="295" text-anchor="middle" fill="var(--accent-contrast)" font-size="15" font-weight="700">4</text>
+            <polygon points="160,302 124,410 160,432" fill="var(--d-fill-2)" stroke="var(--d-stroke)" stroke-width="2"/>
+            <polygon points="160,302 196,410 160,432" fill="var(--d-fill-1)" stroke="var(--d-stroke)" stroke-width="2"/>
+            <line x1="160" y1="302" x2="160" y2="432" stroke="var(--d-accent)" stroke-width="2" stroke-dasharray="5 4"/>
+            <path d="M 196 340 Q 236 360 200 396" fill="none" stroke="var(--d-accent)" stroke-width="2" marker-end="url(#fold-arrow)"/>
+            <text x="160" y="485" text-anchor="middle" fill="var(--d-text)">Fold it in half,</text>
+            <text x="160" y="506" text-anchor="middle" fill="var(--d-text)">away from you</text>
+          </g>
+
+          <!-- 5 · wings down -->
+          <g>
+            <circle cx="348" cy="290" r="14" fill="var(--d-accent)"/>
+            <text x="348" y="295" text-anchor="middle" fill="var(--accent-contrast)" font-size="15" font-weight="700">5</text>
+            <polygon points="410,344 578,420 410,420" fill="var(--d-fill-2)" stroke="var(--d-stroke)" stroke-width="2"/>
+            <polygon points="410,344 410,382 578,420" fill="var(--d-fill-3)" stroke="var(--d-stroke)" stroke-width="1.5"/>
+            <line x1="410" y1="382" x2="578" y2="420" stroke="var(--d-accent)" stroke-width="1.5" stroke-dasharray="5 4"/>
+            <path d="M 452 348 Q 476 344 480 372" fill="none" stroke="var(--d-accent)" stroke-width="2" marker-end="url(#fold-arrow)"/>
+            <text x="480" y="485" text-anchor="middle" fill="var(--d-text)">Fold each wing down</text>
+            <text x="480" y="506" text-anchor="middle" fill="var(--d-text)">level with the body</text>
+          </g>
+
+          <!-- 6 · ready -->
+          <g>
+            <circle cx="668" cy="290" r="14" fill="var(--d-accent)"/>
+            <text x="668" y="295" text-anchor="middle" fill="var(--accent-contrast)" font-size="15" font-weight="700">6</text>
+            <g stroke="var(--d-stroke)" stroke-width="2" stroke-linejoin="round">
+              <polygon points="736,394 878,326 812,404" fill="#ffffff"/>
+              <polygon points="812,404 878,326 800,428" fill="var(--d-fill-1)"/>
+            </g>
+            <g stroke="var(--d-muted)" stroke-width="2" stroke-linecap="round" opacity="0.6">
+              <line x1="712" y1="376" x2="728" y2="372"/>
+              <line x1="706" y1="392" x2="724" y2="388"/>
+            </g>
+            <text x="800" y="485" text-anchor="middle" fill="var(--d-text)">Flare the wings flat —</text>
+            <text x="800" y="506" text-anchor="middle" fill="var(--d-text)">ready for launch</text>
+          </g>
+
+        </g>
+      </svg>
+      <aside class="notes">
+        Six creases, and order matters.
+        ⟨CLICK⟩ First, crease down the middle and unfold — every later fold references this line.
+        ⟨CLICK⟩ Fold both top corners in so they meet at the crease.
+        ⟨CLICK⟩ Then fold the new slanted edges to the middle again — the nose gets sharp.
+        ⟨CLICK⟩ Fold the whole thing in half away from you, so the flaps end up outside.
+        ⟨CLICK⟩ Fold each wing down level with the body.
+        ⟨CLICK⟩ Flare the wings out flat, and it's ready.
+      </aside>
+    </section>
+
+    <section>
+      <h2>Watch it fly</h2>
+      <p>Six creases later</p>
+      <svg viewBox="0 0 960 440" style="max-width: 92%" role="img"
+           aria-label="a paper plane gliding across a sunny meadow">
+        <defs>
+          <clipPath id="meadow-frame">
+            <rect x="0" y="0" width="960" height="440" rx="18"/>
+          </clipPath>
+        </defs>
+        <g clip-path="url(#meadow-frame)">
+          <!-- sky & sun -->
+          <rect x="0" y="0" width="960" height="440" fill="#ddeefb"/>
+          <circle cx="836" cy="84" r="46" fill="#f5d76e"/>
+          <g fill="#ffffff" opacity="0.9">
+            <ellipse cx="180" cy="84" rx="64" ry="22"/>
+            <ellipse cx="232" cy="70" rx="44" ry="18"/>
+            <ellipse cx="520" cy="56" rx="54" ry="18"/>
+          </g>
+          <!-- meadow -->
+          <ellipse cx="240" cy="480" rx="520" ry="200" fill="var(--d-fill-1)"/>
+          <ellipse cx="780" cy="510" rx="560" ry="220" fill="var(--d-fill-3)"/>
+          <!-- flowers -->
+          <g>
+            <g transform="translate(150 366)"><line x1="0" y1="0" x2="0" y2="22" stroke="var(--d-accent)" stroke-width="2"/><circle r="8" fill="#ffffff"/><circle r="3.5" fill="#f5d76e"/></g>
+            <g transform="translate(320 400)"><line x1="0" y1="0" x2="0" y2="20" stroke="var(--d-accent)" stroke-width="2"/><circle r="7" fill="#e8788a"/><circle r="3" fill="#f5d76e"/></g>
+            <g transform="translate(520 378)"><line x1="0" y1="0" x2="0" y2="22" stroke="var(--d-accent)" stroke-width="2"/><circle r="8" fill="#ffffff"/><circle r="3.5" fill="#f5d76e"/></g>
+            <g transform="translate(700 408)"><line x1="0" y1="0" x2="0" y2="20" stroke="var(--d-accent)" stroke-width="2"/><circle r="7" fill="#e8788a"/><circle r="3" fill="#f5d76e"/></g>
+            <g transform="translate(860 380)"><line x1="0" y1="0" x2="0" y2="22" stroke="var(--d-accent)" stroke-width="2"/><circle r="8" fill="#ffffff"/><circle r="3.5" fill="#f5d76e"/></g>
+          </g>
+          <!-- flight path -->
+          <path d="M -60 200 C 160 70 340 270 500 160 S 800 90 1030 190"
+                fill="none" stroke="var(--d-muted)" stroke-width="2"
+                stroke-dasharray="3 10" opacity="0.55"/>
+          <!-- the dart -->
+          <g>
+            <g stroke="var(--d-stroke)" stroke-width="1.5" stroke-linejoin="round">
+              <polygon points="-24,-12 28,0 -8,3" fill="#ffffff"/>
+              <polygon points="-8,3 28,0 -22,12" fill="#e9eef2"/>
+            </g>
+            <animateMotion dur="9s" repeatCount="indefinite" rotate="auto"
+                           path="M -60 200 C 160 70 340 270 500 160 S 800 90 1030 190"/>
+          </g>
+        </g>
+        <rect x="1" y="1" width="958" height="438" rx="18" fill="none" stroke="var(--d-stroke)" stroke-width="2"/>
+      </svg>
+      <aside class="notes">
+        And this is why you folded it. Throw level and smooth, not hard — a dart wants glide, not force.
+      </aside>
+    </section>
+
+  </div>
+  <script src="dist/decklight.js"></script>
+  <script>
+    Decklight.init({ transition: 'fade', slideNumber: true, controls: true });
+    // all motion collapses under prefers-reduced-motion; SMIL needs a hand:
+    // freeze the dart at a visible mid-flight pose instead of animating it
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches)
+      document.querySelectorAll('animateMotion').forEach((a) => {
+        const g = a.parentNode;
+        a.remove();
+        g.setAttribute('transform', 'translate(500 160) rotate(-8)');
+      });
+  </script>
+</body>
+</html>
