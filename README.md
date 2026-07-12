@@ -1,6 +1,10 @@
-# decklight.io
+# decklight.io — moved
 
-The [Decklight](https://github.com/decklight/decklight) showcase, bundled to a single self-contained
-HTML file and served as the site — the presentation library that presents itself.
+This repo used to hold the published site. decklight.io is now published
+straight from [decklight/decklight](https://github.com/decklight/decklight)
+(`.github/workflows/publish-site.yml`, official GitHub Pages OIDC flow), and
+everything that lived only here — the demo voice tracks and the paper-planes
+decks — moved to `site/` in that repo.
 
-Rebuild with: `decklight bundle demo/showcase.html --themes all -o index.html`
+What remains is a redirect for old `decklight.github.io` links. The previous
+content is preserved in this repo's git history.
